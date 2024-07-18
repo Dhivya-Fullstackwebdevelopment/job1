@@ -1,0 +1,57 @@
+git notes
+
+
+
+Github:
+
+1.To manage the repositories
+-open source cloud based web platform
+cloud-maintain in server
+
+Git..?
+
+-like software tool
+1.version control(customize)
+
+
+-store coding history
+1.git --version
+2.git status
+3.git init
+4.git add newfile1.txt
+5.git log
+6.git status
+7.git log
+
+8. git commit -m "MY FIrst Commit"
+9.git add newfile1.txt
+10.git diff
+
+staging
+11.git add .\newfile.txt
+12.git diff --staged
+13.git commit -m "My Fourth Commit"
+14.git log
+
+
+Remove File
+15.git status
+16.git add .
+17.git status
+18.git commit -a -m "Fifth commit with credentials file"
+19.git rm .\credentials.txt
+-using this command  removed totally
+20.git rm -cached .\credentials.txt
+21.git commit -m "sixth Commit to remove credentials file"
+
+Remove uncommit changes
+22.git reset HEAD
+23.git restore .\newfile1.txt
+
+Remove commited changes
+24.git commit -m "seventh Commit"
+25.git log
+26.git reset -hard id(sixth community id )
+
+
+
